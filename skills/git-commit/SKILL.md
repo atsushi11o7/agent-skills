@@ -5,7 +5,7 @@ description: 実際のdiffを確認したうえで、Chris Beamsの標準的な�
 
 # git-commit
 
-ベースはChris Beamsの「7つのルール」([cbea.ms/git-commit](https://cbea.ms/git-commit/))。ただしfooterは使わない。
+ベースはChris Beamsの「7つのルール」（出典: cbea.ms/git-commit）。ただしfooterは使わない。ルールの中身は手順5〜7にすべて書き下してあるので、このページを検索・取得しに行く必要はない。
 
 このスキルはcommitまでを担当する。pushは行わない — pushはcommitより取り消しにくく、リモートや他の開発者・CIに影響する別種の操作なので、意図的に範囲外にしている。pushが必要な場合はユーザーに確認してから別途行うこと。
 
