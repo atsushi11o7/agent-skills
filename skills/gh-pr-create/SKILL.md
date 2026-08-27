@@ -55,7 +55,7 @@ PRはレビューする人間が読むものなので、正確に伝わる言語
 
    テンプレートは次の優先順位で決める。上のものがあれば、それに従う。
 
-   1. リポジトリに`.github/PULL_REQUEST_TEMPLATE.md`（または`.github/PULL_REQUEST_TEMPLATE/`配下のファイル）があれば、その構成に従う
+   1. リポジトリに`PULL_REQUEST_TEMPLATE.md`（リポジトリのroot・`.github/`・`docs/`のいずれか）があれば、その構成に従う
    2. AGENTS.md（またはCLAUDE.md）にPR本文の構成指定があれば、それに従う
    3. どちらもなければ、以下のデフォルトテンプレートを使う
 
